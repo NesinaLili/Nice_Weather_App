@@ -23,7 +23,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
     let locationManager = CLLocationManager()
     
     lazy var weatherManager = APIWeatherManager(apiKey: "b3f10d4d762dd77763c266f809fb7c44")
-    let coordinates = Coordinates(latitude: 54.741704, longitude: 55.984471)
+    let coordinates = Coordinates(latitude: 50.449931, longitude: 30.522727)
     
     func toggleActivityIndicatoe(on: Bool) {
         refreshButton.isHidden = on
